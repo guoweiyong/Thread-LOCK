@@ -8,7 +8,9 @@
 #import "ViewController.h"
 #import "GYBaseDemo.h"
 #import "OSSpinLockDemo.h"
-#import <libkern/OSAtomic.h>
+#import "OS_unfair_lockDemo.h"
+#import "MutexDemo.h"
+#import "MutexDemo2.h"
 
 @interface ViewController ()
 
@@ -19,10 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    GYBaseDemo *demo = [[OSSpinLockDemo alloc] init];
-    [demo moneyTest];
-    [demo ticketTest];
+    GYBaseDemo *demo = [[MutexDemo2 alloc] init];
+//    [demo moneyTest];
+//    [demo ticketTest];
     
+    [demo otherTest];
     
 }
 

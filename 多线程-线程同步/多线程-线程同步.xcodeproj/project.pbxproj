@@ -18,6 +18,9 @@
 		8406ED41254D411B0034B974 /* GYBaseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED3D254D411B0034B974 /* GYBaseDemo.m */; };
 		8406ED42254D411B0034B974 /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED3F254D411B0034B974 /* OSSpinLockDemo.m */; };
 		8406ED4A254D414E0034B974 /* OSSpinLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED49254D414E0034B974 /* OSSpinLockDemo2.m */; };
+		8406ED59254D4AD30034B974 /* OS_unfair_lockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED58254D4AD30034B974 /* OS_unfair_lockDemo.m */; };
+		8406ED62254D4F020034B974 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED61254D4F020034B974 /* MutexDemo.m */; };
+		8406ED68254D6B740034B974 /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED67254D6B740034B974 /* MutexDemo2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		8406ED3F254D411B0034B974 /* OSSpinLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
 		8406ED40254D411B0034B974 /* OSSpinLockDemo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo2.h; sourceTree = "<group>"; };
 		8406ED49254D414E0034B974 /* OSSpinLockDemo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo2.m; sourceTree = "<group>"; };
+		8406ED57254D4AD30034B974 /* OS_unfair_lockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OS_unfair_lockDemo.h; sourceTree = "<group>"; };
+		8406ED58254D4AD30034B974 /* OS_unfair_lockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OS_unfair_lockDemo.m; sourceTree = "<group>"; };
+		8406ED60254D4F020034B974 /* MutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
+		8406ED61254D4F020034B974 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
+		8406ED66254D6B740034B974 /* MutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo2.h; sourceTree = "<group>"; };
+		8406ED67254D6B740034B974 /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +160,12 @@
 				8406ED3F254D411B0034B974 /* OSSpinLockDemo.m */,
 				8406ED40254D411B0034B974 /* OSSpinLockDemo2.h */,
 				8406ED49254D414E0034B974 /* OSSpinLockDemo2.m */,
+				8406ED57254D4AD30034B974 /* OS_unfair_lockDemo.h */,
+				8406ED58254D4AD30034B974 /* OS_unfair_lockDemo.m */,
+				8406ED60254D4F020034B974 /* MutexDemo.h */,
+				8406ED61254D4F020034B974 /* MutexDemo.m */,
+				8406ED66254D6B740034B974 /* MutexDemo2.h */,
+				8406ED67254D6B740034B974 /* MutexDemo2.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -287,8 +302,11 @@
 				8406ED05254D12120034B974 /* ViewController.m in Sources */,
 				8406ED42254D411B0034B974 /* OSSpinLockDemo.m in Sources */,
 				8406ED4A254D414E0034B974 /* OSSpinLockDemo2.m in Sources */,
+				8406ED68254D6B740034B974 /* MutexDemo2.m in Sources */,
 				8406ECFF254D12120034B974 /* AppDelegate.m in Sources */,
 				8406ED41254D411B0034B974 /* GYBaseDemo.m in Sources */,
+				8406ED59254D4AD30034B974 /* OS_unfair_lockDemo.m in Sources */,
+				8406ED62254D4F020034B974 /* MutexDemo.m in Sources */,
 				8406ED10254D124D0034B974 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZX7AA25E56;
 				INFOPLIST_FILE = "多线程-线程同步/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZX7AA25E56;
 				INFOPLIST_FILE = "多线程-线程同步/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
