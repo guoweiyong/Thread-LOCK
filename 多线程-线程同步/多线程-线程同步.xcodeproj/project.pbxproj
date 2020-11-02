@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0DA18325503BC1003DF806 /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DA18125503BC1003DF806 /* MutexDemo3.m */; };
 		8406ECFF254D12120034B974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ECFE254D12120034B974 /* AppDelegate.m */; };
 		8406ED05254D12120034B974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED04254D12120034B974 /* ViewController.m */; };
 		8406ED08254D12120034B974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8406ED06254D12120034B974 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C0DA18125503BC1003DF806 /* MutexDemo3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
+		5C0DA18225503BC1003DF806 /* MutexDemo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
 		8406ECFA254D12120034B974 /* 多线程-线程同步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程-线程同步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406ECFD254D12120034B974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8406ECFE254D12120034B974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				8406ED61254D4F020034B974 /* MutexDemo.m */,
 				8406ED66254D6B740034B974 /* MutexDemo2.h */,
 				8406ED67254D6B740034B974 /* MutexDemo2.m */,
+				5C0DA18225503BC1003DF806 /* MutexDemo3.h */,
+				5C0DA18125503BC1003DF806 /* MutexDemo3.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0DA18325503BC1003DF806 /* MutexDemo3.m in Sources */,
 				8406ED05254D12120034B974 /* ViewController.m in Sources */,
 				8406ED42254D411B0034B974 /* OSSpinLockDemo.m in Sources */,
 				8406ED4A254D414E0034B974 /* OSSpinLockDemo2.m in Sources */,
