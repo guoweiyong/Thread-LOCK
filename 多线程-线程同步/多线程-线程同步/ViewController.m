@@ -11,6 +11,8 @@
 #import "OS_unfair_lockDemo.h"
 #import "MutexDemo.h"
 #import "MutexDemo2.h"
+#import "GYConditionLock.h"
+#import "SerialQueueDemo.h"
 
 @interface ViewController ()
 
@@ -21,12 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    GYBaseDemo *demo = [[MutexDemo2 alloc] init];
-//    [demo moneyTest];
-//    [demo ticketTest];
+    GYBaseDemo *demo = [[SerialQueueDemo alloc] init];
+    [demo moneyTest];
+    [demo ticketTest];
     
-    [demo otherTest];
-    NSCondition
+//    [demo otherTest];
     
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C095FF0255189F2000F807F /* GYConditionLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C095FEF255189F2000F807F /* GYConditionLock.m */; };
+		5C095FF325518F5A000F807F /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C095FF225518F5A000F807F /* SerialQueueDemo.m */; };
 		5C0DA18325503BC1003DF806 /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DA18125503BC1003DF806 /* MutexDemo3.m */; };
 		8406ECFF254D12120034B974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ECFE254D12120034B974 /* AppDelegate.m */; };
 		8406ED05254D12120034B974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED04254D12120034B974 /* ViewController.m */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C095FEE255189F2000F807F /* GYConditionLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYConditionLock.h; sourceTree = "<group>"; };
+		5C095FEF255189F2000F807F /* GYConditionLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYConditionLock.m; sourceTree = "<group>"; };
+		5C095FF125518F5A000F807F /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		5C095FF225518F5A000F807F /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
 		5C0DA18125503BC1003DF806 /* MutexDemo3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
 		5C0DA18225503BC1003DF806 /* MutexDemo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
 		8406ECFA254D12120034B974 /* 多线程-线程同步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程-线程同步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +177,10 @@
 				8406ED67254D6B740034B974 /* MutexDemo2.m */,
 				5C0DA18225503BC1003DF806 /* MutexDemo3.h */,
 				5C0DA18125503BC1003DF806 /* MutexDemo3.m */,
+				5C095FEE255189F2000F807F /* GYConditionLock.h */,
+				5C095FEF255189F2000F807F /* GYConditionLock.m */,
+				5C095FF125518F5A000F807F /* SerialQueueDemo.h */,
+				5C095FF225518F5A000F807F /* SerialQueueDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -311,8 +321,10 @@
 				8406ED68254D6B740034B974 /* MutexDemo2.m in Sources */,
 				8406ECFF254D12120034B974 /* AppDelegate.m in Sources */,
 				8406ED41254D411B0034B974 /* GYBaseDemo.m in Sources */,
+				5C095FF0255189F2000F807F /* GYConditionLock.m in Sources */,
 				8406ED59254D4AD30034B974 /* OS_unfair_lockDemo.m in Sources */,
 				8406ED62254D4F020034B974 /* MutexDemo.m in Sources */,
+				5C095FF325518F5A000F807F /* SerialQueueDemo.m in Sources */,
 				8406ED10254D124D0034B974 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
