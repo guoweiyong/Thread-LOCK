@@ -24,6 +24,8 @@
 		8406ED59254D4AD30034B974 /* OS_unfair_lockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED58254D4AD30034B974 /* OS_unfair_lockDemo.m */; };
 		8406ED62254D4F020034B974 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED61254D4F020034B974 /* MutexDemo.m */; };
 		8406ED68254D6B740034B974 /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406ED67254D6B740034B974 /* MutexDemo2.m */; };
+		84B74CFC2552497C006D3928 /* GYSemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B74CFB2552497C006D3928 /* GYSemaphoreDemo.m */; };
+		84B74D052552566E006D3928 /* GYSynchornizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B74D042552566E006D3928 /* GYSynchornizedDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,10 @@
 		8406ED61254D4F020034B974 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
 		8406ED66254D6B740034B974 /* MutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo2.h; sourceTree = "<group>"; };
 		8406ED67254D6B740034B974 /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
+		84B74CFA2552497C006D3928 /* GYSemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYSemaphoreDemo.h; sourceTree = "<group>"; };
+		84B74CFB2552497C006D3928 /* GYSemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYSemaphoreDemo.m; sourceTree = "<group>"; };
+		84B74D032552566E006D3928 /* GYSynchornizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYSynchornizedDemo.h; sourceTree = "<group>"; };
+		84B74D042552566E006D3928 /* GYSynchornizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYSynchornizedDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,10 @@
 				5C095FEF255189F2000F807F /* GYConditionLock.m */,
 				5C095FF125518F5A000F807F /* SerialQueueDemo.h */,
 				5C095FF225518F5A000F807F /* SerialQueueDemo.m */,
+				84B74CFA2552497C006D3928 /* GYSemaphoreDemo.h */,
+				84B74CFB2552497C006D3928 /* GYSemaphoreDemo.m */,
+				84B74D032552566E006D3928 /* GYSynchornizedDemo.h */,
+				84B74D042552566E006D3928 /* GYSynchornizedDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -314,11 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B74CFC2552497C006D3928 /* GYSemaphoreDemo.m in Sources */,
 				5C0DA18325503BC1003DF806 /* MutexDemo3.m in Sources */,
 				8406ED05254D12120034B974 /* ViewController.m in Sources */,
 				8406ED42254D411B0034B974 /* OSSpinLockDemo.m in Sources */,
 				8406ED4A254D414E0034B974 /* OSSpinLockDemo2.m in Sources */,
 				8406ED68254D6B740034B974 /* MutexDemo2.m in Sources */,
+				84B74D052552566E006D3928 /* GYSynchornizedDemo.m in Sources */,
 				8406ECFF254D12120034B974 /* AppDelegate.m in Sources */,
 				8406ED41254D411B0034B974 /* GYBaseDemo.m in Sources */,
 				5C095FF0255189F2000F807F /* GYConditionLock.m in Sources */,

@@ -13,6 +13,8 @@
 #import "MutexDemo2.h"
 #import "GYConditionLock.h"
 #import "SerialQueueDemo.h"
+#import "GYSemaphoreDemo.h"
+#import "GYSynchornizedDemo.h"
 
 @interface ViewController ()
 
@@ -23,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    GYBaseDemo *demo = [[SerialQueueDemo alloc] init];
+    GYBaseDemo *demo = [[GYSynchornizedDemo alloc] init];
     [demo moneyTest];
     [demo ticketTest];
     
